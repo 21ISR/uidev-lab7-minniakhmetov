@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
+    width:765px;
+    justify-self:  center;
 }
 .container {
     max-width: 800px;
@@ -16,62 +18,81 @@ h2,
 h3 {
 }
 h1 {
+    letter-spacing: 1px;
+    opacity: 79%;
     text-align: center;
         font-family: 'Playfair Display';
             text-transform: uppercase;
-                font-size: 2.2rem;
+                font-size: 1.92rem;
                     font-weight: 600;
 }
 h2 {
+    opacity: 80%;
         font-family: 'Playfair Display';
-                font-size: 1.5rem;
+                font-size: 1.4rem;
                     font-weight: 700;
                     text-decoration-line:underline;
     margin-top: 20px;}
-h3{
-    
-}
-p { 
-            text-indent: 5mm;
-            font-size: 1.2rem;
-}
-.pipa{
-        font-size: 1.1rem;
-            text-indent: 10mm;
-                font-weight: 300;
+p {
+    font-family: Roboto;
+    text-indent: 1rem;
+    font-weight: 400;
+    word-spacing: 5px;
+    line-height: 1.7;
 }
 a {
+    color:blue;
+    text-decoration: none ;
 }
 a:hover {
+    color:blue;
+    text-decoration: none ;
 }
 blockquote {
-    font-style: italic;
-    font-family: Roboto;
-    font-weight: 100;
-    font-size: 1.4rem;
-    
     background: #eee;
     padding: 10px 20px;
     border-left: 5px solid #0077cc;
     margin: 20px 0;
+    font-family: Montserrat;
+    font-style:italic;
+    word-spacing: 20px;
+    line-height: 1.7;
 }
 ul {
     padding-left: 20px;
-    /* list-style-type: "▪";  */
-    list-style-type: "";
-li::before{
-    content: "▪";
-    font-size: 0.6rem;
+    line-height: 1.7;
 }
+li span{
+    font-weight: 600;
 }
-
 pre {
     background: #333;
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
+    color:white;
+    line-height: 1.7;
 }
+
+.article--text-styles span {
+
+    background-color: transparent;
+    font-weight: 400;
+}
+
 .highlight {
-    font-weight:600;
     background-color: yellow;
+}
+#zach_text{
+    text-decoration: line-through;
+
+}
+#text_up{
+    text-transform: uppercase;
+
+
+}
+#text_width{
+    letter-spacing: 2px;
+
 }
